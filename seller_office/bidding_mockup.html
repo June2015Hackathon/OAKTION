@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Bidding System - Business Interface</title>
+
+	<link rel="stylesheet" media="screen" href="tmf.css">
+	<meta name="tmfdemo" content="all">
+</head>
+
+  <div id="central">
+    <p>
+      <div id="intro"> <h1>Bidding System</h1> 
+      </div>
+      <div id="intro">
+	<h2>Oaktion - Business Auction Interface (future is now!)</h2>
+	<p>(A TMforumHackatron mockup demonstration)</p>
+	<table>
+	  <tbody>
+	    <tr>
+	      <th>
+		<p>Enter keyword to search:
+		  <input name="keyword" id="keyword"></p>
+	      </th> <th>
+		<p>Radius (km):
+		  <input name="keyword" id="keyword"></p>
+	      </th> <th>
+		<div class="submit"><input value="Search" type="submit"></div>
+	      </th> <th  width="200" align="center">
+		<div class="submit"><input value="Refresh" type="submit"></div>
+	      </th>
+	  </tbody>
+	  </table>
+      </div>
+    </p>
+    <table bgcolor="#efefef" border="2">
+      <tbody>
+	<tr>
+	  <th>
+      	    <div id="intro">
+	      <h3>Bidding List Entries</h3>
+	    </div>
+	  </th>
+	  <th>
+	    <div id="intro">
+	      <h3>Details</h3>
+	    </div>
+	  </th>
+	</tr>
+
+	<tr>
+	  <th>
+	    <div id="bidlist">
+	      <h3>Graffiti Removal</h3>
+	      <p>Remove the graffiti at interstate junction 54 bridge</p>
+	    </div>
+	  </th>
+	  <th>
+            <div id="details">
+	      <table bgcolor="#efefef" border="2">
+		<tbody><tr>
+		    <th>Current bid:</th>
+     		    <th width="250">500 EUR</th>
+		  </tr>
+		  <tr>
+		    <th>Your max bid:</th>
+		    <th> <input name="bid" id="bid"></th>
+		  </tr>
+		  <tr>
+		    <th>Keywords:</th>
+		    <th>cleanup graffiti</th>
+		  </tr>
+		  <tr>
+		    <th>Start time:</th>
+		    <td>2015-06-01</td>
+		  </tr>
+		  <tr>
+		    <th>End time:</th>
+		    <td>2015-06-14</td>
+		  </tr>
+		</tbody>
+	      </table>
+	    </div>
+   	  </th>
+	</tr>
+
+	<tr>
+	  <th>
+	    <div id="bidlist">
+	      <h3>Park Cleanup</h3>
+	      <p>South east corner of the park needs to be cleaned after weekend partyer has left lots of trash </p>
+	    </div>
+	  </th>
+	  <th>
+            <div id="details">
+	      <table bgcolor="#efefef" border="2">
+		<tbody><tr>
+		    <th>Current bid:</th>
+     		    <th width="250">2000 EUR</th>
+		  </tr>
+		  <tr>
+		    <th>Your max bid:</th>
+		    <th> <input name="bid" id="bid"></th>
+		  </tr>
+		  <tr>
+		    <th>Keywords:</th>
+		    <th>trash cleaning</th>
+		  </tr>
+		  <tr>
+		    <th>Start time:</th>
+		    <td>2015-06-05</td>
+		  </tr>
+		  <tr>
+		    <th>End time:</th>
+		    <td>2015-06-09</td>
+		  </tr>
+		</tbody>
+	      </table>
+	    </div>
+   	  </th>
+	</tr>
+
+	<tr>
+	  <th>
+	    <div id="bidlist">
+	      <h3>Plant Watering</h3>
+	      <p>Internet of Things humidity sensor has noticed unusual dryness at the south facing hill near intersection 4. Also several people has reported plants soon dying in that area due to dryness.</p>
+	    </div>
+	  </th>
+	  <th>
+            <div id="details">
+	      <table bgcolor="#efefef" border="2">
+		<tbody><tr>
+		    <th>Current bid:</th>
+     		    <th width="250">150 EUR</th>
+		  </tr>
+		  <tr>
+		    <th>Your max bid:</th>
+		    <th> <input name="bid" id="bid"></th>
+		  </tr>
+		  <tr>
+		    <th>Keywords:</th>
+		    <th>plant water</th>
+		  </tr>
+		  <tr>
+		    <th>Start time:</th>
+		    <td>2015-05-29</td>
+		  </tr>
+		  <tr>
+		    <th>End time:</th>
+		    <td>2015-05-30</td>
+		  </tr>
+		</tbody>
+	      </table>
+	    </div>
+   	  </th>
+	</tr>
+
+	<tr>
+	  <th>
+	    <div id="bidlist">
+	      <h3>Fix broken street light</h3>
+	      <p>Near north entrance of the park there are several street lights not functioning and the gate area is quite dark at night.</p>
+	    </div>
+	  </th>
+	  <th>
+            <div id="details">
+	      <table bgcolor="#efefef" border="2">
+		<tbody><tr>
+		    <th>Current bid:</th>
+     		    <th width="250">400 EUR</th>
+		  </tr>
+		  <tr>
+		    <th>Your max bid:</th>
+		    <th> <input name="bid" id="bid"></th>
+		  </tr>
+		  <tr>
+		    <th>Keywords:</th>
+		    <th>electricity lamp</th>
+		  </tr>
+		  <tr>
+		    <th>Start time:</th>
+		    <td>2015-08-06</td>
+		  </tr>
+		  <tr>
+		    <th>End time:</th>
+		    <td>2015-08-19</td>
+		  </tr>
+		</tbody>
+	      </table>
+	    </div>
+   	  </th>
+	</tr>
+
+	<tr>
+	  <th>
+	    <div id="bidlist">
+	      <h3>Movie Tickets</h3>
+	      <p>Local cinema is offering movie tickets at half price during week.</p>
+	    </div>
+	  </th>
+	  <th>
+            <div id="details">
+	      <table bgcolor="#efefef" border="2">
+		<tbody><tr>
+		    <th>Current bid:</th>
+     		    <th width="250">100 EUR</th>
+		  </tr>
+		  <tr>
+		    <th>Your max bid:</th>
+		    <th> <input name="bid" id="bid"></th>
+		  </tr>
+		  <tr>
+		    <th>Keywords:</th>
+		    <th>ticket cinema</th>
+		  </tr>
+		  <tr>
+		    <th>Start time:</th>
+		    <td>2015-07-01</td>
+		  </tr>
+		  <tr>
+		    <th>End time:</th>
+		    <td>2015-07-07</td>
+		  </tr>
+		</tbody>
+	      </table>
+	    </div>
+   	  </th>
+	</tr>
+	<p>
+      </tbody>
+    </table>
+
+    <div id="footer">
+      <h3>Notice</h3>
+      <p>By placing a bid to this system you bind to provide the service according to rules of 
+	<a href="http://www.showmyrules.com/">http://www.showmyrules.com/</a></p>
+      <p>.
+    </div>
+  </div>
+</body></html>
+

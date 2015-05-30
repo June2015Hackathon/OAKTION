@@ -1,0 +1,94 @@
+* {
+	border: 10;
+	padding: 20;
+}
+
+BODY { 
+	color: black;
+	background-color: #ddd;
+}
+
+#central {
+	position: relative;
+	width: 990px;
+	margin: 0 auto 0 auto; 
+	border-left: 1px solid #000; 
+ 	border: 3px solid #8f80f8;
+	background-color: #f8fff8;
+}
+
+#intro {
+	FONT-SIZE: 18px; 
+	left: 20px;
+	top: 30px;
+	text-align: left;
+	margin: 20;
+	margin-left: 20px; 
+}
+#intro h1 {
+	FONT-SIZE: 60px;  
+	left: 40px;
+	height:50px;
+	top: 30px;
+	text-align: left;
+	margin: 50;
+	margin-left: 20px; 
+}
+#tablelist {
+	FONT-SIZE: 13px; 
+	left: 20px;
+	top: 30px;
+	text-align: left;
+	margin: 20;
+	margin-left: 20px; 
+}
+#bidlist {
+	width: 400px;
+	text-align: left; 
+	margin-left: 20px;  
+/* 	border: 2px solid #000; */
+}
+
+#details{
+	width: 450px;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	text-align: left;
+        padding: 1em 1em 1em 1em;
+	border: 1px solid #000; 
+	background-color: white;
+	color: black;
+/*	border: 2px solid #000;  */
+}
+h1 {
+	FONT-FAMILY: Arial; 
+	FONT-WEIGHT: bold; 
+	font-size: 160%;
+}
+h2 {
+	FONT-WEIGHT: bold; 
+	font-size: 130%; 
+}
+h3 {
+	FONT-WEIGHT: bold; 
+	font-size: 120%; 
+}
+p.middle {
+	text-align: center;
+}
+
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+/*    padding: 5px;
+    margin-top: 10px; */
+}
+#footer {
+/* 	height: 22px; */
+	FONT-SIZE: 10px; 
+/*	border: 1px solid #000;
+	background-color: #bbb; */
+}
+
