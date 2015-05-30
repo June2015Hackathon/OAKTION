@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Oaktio.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Oaktio"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Pivot>
+        <PivotItem Margin="0,0,0,0">
+            <Grid Style="{StaticResource LayoutGridStyle}" Margin="0,0,0,0">
+                <Button Content="Let me ask the gods for you" x:Name="searchBtn"  VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Background="{StaticResource CheckBoxBackgroundThemeBrush}">
+                    <Button.RenderTransform>
+                        <CompositeTransform Rotation="-0.603"/>
+                    </Button.RenderTransform>
+                </Button>
+                <TextBox x:Name="searchField" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="150" Margin="0,0,0,90"/>
+
+            </Grid>
+        </PivotItem>
+        <PivotItem Margin="0,0,0,0">
+            <Grid Style="{StaticResource LayoutGridStyle}" Margin="0,0,0,0">
+                <CaptureElement x:Name="capturePreview" Margin="0,0,0,90"  Stretch="UniformToFill"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Image Visibility="Collapsed" Stretch="UniformToFill" x:Name="imagePreivew" Margin="0,0,0,90" VerticalAlignment="Center" HorizontalAlignment="Center" >
+                </Image>
+                <Button x:ConnectionId='1' x:Name="takePicBtn" Visibility="Collapsed"                      Content="Take Picture"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="60" Width="221" />
+                <Button x:ConnectionId='2' x:Name="sendBtn" Visibility="Collapsed"                    Content="Send"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="60" Width="221" Margin="0,0,0,50" />
+                <Button x:ConnectionId='3' x:Name="startCam"                                     Content="Start Capture Preview" Margin="0,0,0,0" Height="60" Width="221" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+            </Grid>
+        </PivotItem>
+    </Pivot>
+</Page>
+
