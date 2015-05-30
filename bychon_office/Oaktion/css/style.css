@@ -1,0 +1,63 @@
+@font-face {
+    font-family: latoRegular;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+html {
+	margin: 0;
+}
+
+body {
+	padding-left: 1px;
+	overflow: hidden;
+}
+
+.nav {
+	font-family: latoRegular;
+	font-size: 15px;
+}
+
+.list-item {
+	font-family: latoRegular;
+	font-size: 15px;
+	margin-top: 15px;
+	border: 2px solid #BEBEBE;
+	padding: 5px;
+}
+
+.list-item img {
+	-webkit-transform: translate(0%, 15px);
+	-moz-transform: translate(0%, 15px);
+	-ms-transform: translate(0%, 15px);
+    -o-transform: translate(0%, 15px);
+    transform: translate(0%, 15px);
+}
+
+.list-item .pseudo {
+	margin-top: 5px;
+}
+
+.list-item .adress {
+	margin-top: 5px;
+}
+
+.list-item .description {
+	margin-top: 5px;
+	width: 100%;
+	max-width: 100%;
+	max-height: 70px;
+}
+
+.list-item .right {
+	text-align: right;
+}
+
+.list-item .date {
+	margin-top: 10px;
+}
+
+.list-item input[type="checkbox"] {
+	margin-top: 30px;
+	height: 20px;
+	width: 20px;
+}
